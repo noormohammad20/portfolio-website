@@ -49,6 +49,11 @@ const Intro = () => {
                         text2="Developer"
                     />
                 </div>
+                {/* Blur Div */}
+                <div className='blur' style={{ background: 'rgb(238,210,255)' }}>
+                </div>
+                <div className='blur' style={{ background: '#C1F5FF', top: '17rem', left: '-9rem', width: '21rem', height: '11rem' }}>
+                </div>
             </div>
         </div>
     )
