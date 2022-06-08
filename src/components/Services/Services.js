@@ -4,7 +4,7 @@ import HeartEmoji from "../../img/heartemoji.png"
 import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"
 import Card from '../Card/Card'
-import Resume from './resume of noor_mohammad.pdf'
+
 const Services = () => {
     return (
         <div className='services'>
@@ -15,9 +15,9 @@ const Services = () => {
                 <span>I'm basically a front-end developer
                     <br />
                     but i can also do server side work with node expressJs and mongoDB </span>
-                <a href={Resume} download>
-                    <button className='button s-button'>Download Resume</button>
-                </a>
+
+                <button className='button s-button'>Hire Me</button>
+
 
                 <div className="blur s-blur" style={{ background: '#ABF1FF94' }}></div>
             </div>
