@@ -11,10 +11,13 @@ const Services = () => {
             {/* left div */}
             <div className="awesome">
                 <span>My Awesome</span>
-                <span>Services</span>
-                <span>I'm basically a front-end developer
+                <span>Projects</span>
+                <span style={{ fontSize: '22px' }}>I'm basically a front-end developer
                     <br />
-                    but i can also do server side work with node expressJs and mongoDB </span>
+                    but i can also do server side work with node expressJs and mongoDB
+                    <br />
+                    hare i am showing some of the projects i have created.
+                </span>
 
                 <button className='button s-button'>Hire Me</button>
 
@@ -27,24 +30,27 @@ const Services = () => {
                 <div style={{ left: '14rem' }}>
                     <Card
                         emoji={HeartEmoji}
-                        heading={'Design'}
-                        details={'figma , adobe ,photoshop'}
+                        heading={'Computer Parts Manufacturer'}
+                        details={'Using: ReactJS, Firebase, Node JS, MongoDB, Express, etc'}
+                        live={<a style={{ textDecoration: 'none' }} href='https://computerpartsmanufacturer.web.app/'>Live Project</a>}
                     />
                 </div>
                 {/* second card  */}
                 <div style={{ top: '12rem', left: '-4rem' }}>
                     <Card
                         emoji={Glasses}
-                        heading={'Developer'}
-                        details={'figma , adobe ,photoshop'}
+                        heading={'Toy Warehouse'}
+                        details={'Using: React JS, React Router, React Bootstrap, Axios, Firebase, Node JS, Mongo DB, Express, etc.'}
+                        live={<a style={{ textDecoration: 'none' }} href='https://toy-warehouse.web.app/'>Live Project</a>}
                     />
                 </div>
                 {/* third card  */}
                 <div style={{ top: '19rem', left: '12rem' }}>
                     <Card
                         emoji={Humble}
-                        heading={'UI/UX'}
-                        details={'figma , adobe ,photoshop'}
+                        heading={'Learn With Noor'}
+                        details={'Using: React Bootstrap, React JS, React Router, React Toastify, Firebase, etc.'}
+                        live={<a style={{ textDecoration: 'none' }} href='https://learn-arabic-with-noor.web.app/'>Live Project</a>}
                     />
                 </div>
             </div>

@@ -31,13 +31,13 @@
 
 .awesome> :nth-child(3) {
     color: var(--gray);
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 1rem;
 }
 
 .s-button {
-    width: 12rem;
-    height: 2.5rem;
+    width: 11rem;
+    height: 3.5rem;
     margin-top: 1rem;
     font: bold
 }

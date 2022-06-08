@@ -5,6 +5,7 @@ import Manufacturer from '../../img/manufacturer.png'
 import Warehouse from '../../img/warehouse.png'
 import Learn from '../../img/learn.png'
 import Watch from '../../img/watch.png'
+import Choose from '../../img/choose.png'
 import "swiper/css"
 const Portfolio = () => {
     return (
@@ -32,6 +33,9 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={Watch} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Choose} alt="" />
                 </SwiperSlide>
 
             </Swiper>
