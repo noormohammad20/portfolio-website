@@ -4,8 +4,9 @@ import HeartEmoji from "../../img/heartemoji.png"
 import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"
 import Card from '../Card/Card'
-
+import { motion } from 'framer-motion'
 const Services = () => {
+    const transition = { duration: 1, type: 'spring' }
     return (
         <div className='services'>
             {/* left div */}
@@ -27,32 +28,45 @@ const Services = () => {
             {/* right div */}
             <div className="cards">
                 {/* first card  */}
-                <div style={{ left: '14rem' }}>
+                <motion.div
+                    initial={{ left: "25" }}
+                    whileInView={{ left: "14rem" }}
+                    transition={transition}
+                    style={{ left: '14rem' }}>
                     <Card
                         emoji={HeartEmoji}
                         heading={'Computer Parts Manufacturer'}
                         details={'Using: ReactJS, Firebase, Node JS, MongoDB, Express, etc'}
                         live={<a style={{ textDecoration: 'none' }} href='https://computerpartsmanufacturer.web.app/'>Live Project</a>}
                     />
-                </div>
+                </motion.div>
                 {/* second card  */}
-                <div style={{ top: '12rem', left: '-4rem' }}>
+                <motion.div
+                    initial={{ left: "-11rem", top: "12rem" }}
+                    whileInView={{ left: "-4rem" }}
+                    transition={transition}
+                    style={{ top: '12rem', left: '-4rem' }}>
                     <Card
                         emoji={Glasses}
                         heading={'Toy Warehouse'}
                         details={'Using: React JS, React Router, React Bootstrap, Axios, Firebase, Node JS, Mongo DB, Express, etc.'}
                         live={<a style={{ textDecoration: 'none' }} href='https://toy-warehouse.web.app/'>Live Project</a>}
                     />
-                </div>
+                </motion.div>
                 {/* third card  */}
-                <div style={{ top: '19rem', left: '12rem' }}>
+                <motion.div
+                    initial={{ top: "19rem", left: "25rem" }}
+                    whileInView={{ left: "12rem" }}
+                    transition={transition}
+
+                    style={{ top: '19rem', left: '12rem' }}>
                     <Card
                         emoji={Humble}
                         heading={'Learn With Noor'}
                         details={'Using: React Bootstrap, React JS, React Router, React Toastify, Firebase, etc.'}
                         live={<a style={{ textDecoration: 'none' }} href='https://learn-arabic-with-noor.web.app/'>Live Project</a>}
                     />
-                </div>
+                </motion.div>
             </div>
             <div className='blur s-blur2' style={{ background: 'var--(purple)' }}></div>
         </div>
