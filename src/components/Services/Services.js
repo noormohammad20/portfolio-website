@@ -68,8 +68,9 @@ const Services = () => {
                     />
                 </motion.div>
             </div>
-            <div className='blur s-blur2' style={{ background: 'var--(purple)' }}></div>
-        </div>
+            <div div className='blur s-blur2' style={{ background: 'var--(purple)' }
+            }></div >
+        </div >
     )
 }
 
