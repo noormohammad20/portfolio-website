@@ -6,9 +6,10 @@ import Amazon from "../../img/amazon.png"
 import Shopify from "../../img/Shopify.png"
 import Facebook from "../../img/Facebook.png"
 import { motion } from 'framer-motion'
+
 const Works = () => {
     return (
-        <div className='works'>
+        <div className='works' id='Works'>
             {/* left div */}
             <div className="awesome">
                 <span>Works For All This</span>
