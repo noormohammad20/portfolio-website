@@ -50,4 +50,8 @@
     .n-list {
         display: none;
     }
+
+    .n-button {
+        display: none;
+    }
 }
