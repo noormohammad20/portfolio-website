@@ -24,9 +24,9 @@ const Intro = () => {
                     <span>Noor Mohammad</span>
                     <span>JavaScript developer with knowing some framework for the frontend and the backend</span>
                 </div>
-                <a href={Resume} download>
-                    <button className='button s-button'>Download Resume</button>
-                </a>
+
+                <a href={Resume} download className='button i-button'>Download Resume</a>
+
                 <div className="i-icons">
                     <img src={Github} alt="" />
                     <img src={Linkedin} alt="" />

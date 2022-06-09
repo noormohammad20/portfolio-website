@@ -1,15 +1,13 @@
-import Navbar from "./components/Navbar/Navbar"
 import './App.css'
-import Intro from "./components/Intro/Intro"
-import Services from "./components/Services/Services"
-import Experience from "./components/Experience/Experience"
-import Works from "./components/Works/Works"
-import Portfolio from "./components/Portfolio/Portfolio"
-import Testimonial from "./components/Testimonials/Testimonial"
-import Contact from "./components/Contact/Contact"
-import Footer from "./components/Footer/Footer"
+
 import { themeContext } from './Context'
 import { useContext } from 'react'
+import { Route, Routes } from "react-router-dom"
+import Blogs from "./components/Blogs/Blogs"
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import ProjectDetails from './components/ProjectDetails/ProjectDetails'
+import NotFound from './components/NotFound/NotFound'
 
 
 function App() {
@@ -22,15 +20,14 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <Navbar />
-      <Intro />
-      <Services />
-      <Experience />
-      <Works />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project/:projectId" element={<ProjectDetails />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+
     </div>
   )
 }

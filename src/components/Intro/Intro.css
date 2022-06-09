@@ -39,8 +39,11 @@
 }
 
 .i-button {
-    width: 7rem;
-    height: 3rem;
+    margin-top: 5rem;
+    padding-top: 15px;
+    text-decoration: none;
+    width: 7.5rem;
+    height: 1.5rem;
 }
 
 .i-icons {

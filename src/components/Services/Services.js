@@ -34,6 +34,7 @@ const Services = () => {
                     transition={transition}
                     style={{ left: '14rem' }}>
                     <Card
+                        id={1}
                         emoji={HeartEmoji}
                         heading={'Computer Parts Manufacturer'}
                         details={'Using: ReactJS, Firebase, Node JS, MongoDB, Express, etc'}
@@ -42,11 +43,13 @@ const Services = () => {
                 </motion.div>
                 {/* second card  */}
                 <motion.div
+
                     initial={{ left: "-11rem", top: "12rem" }}
                     whileInView={{ left: "-4rem" }}
                     transition={transition}
                     style={{ top: '12rem', left: '-4rem' }}>
                     <Card
+                        id={2}
                         emoji={Glasses}
                         heading={'Toy Warehouse'}
                         details={'Using: React JS, React Router, React Bootstrap, Axios, Firebase, Node JS, Mongo DB, Express, etc.'}
@@ -61,6 +64,7 @@ const Services = () => {
 
                     style={{ top: '19rem', left: '12rem' }}>
                     <Card
+                        id={3}
                         emoji={Humble}
                         heading={'Learn With Noor'}
                         details={'Using: React Bootstrap, React JS, React Router, React Toastify, Firebase, etc.'}
