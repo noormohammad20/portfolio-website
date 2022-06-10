@@ -5,8 +5,19 @@ import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"
 import Card from '../Card/Card'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 const Services = () => {
     const transition = { duration: 1, type: 'spring' }
+    const navigate = useNavigate()
+    const handleNavigateToManufacturer = () => {
+        navigate('/manufacturer')
+    }
+    const handleNavigateToWarehouse = () => {
+        navigate('/warehouse')
+    }
+    const handleNavigateToLearn = () => {
+        navigate('/learn')
+    }
     return (
         <div className='services' id='Services'>
             {/* left div */}
@@ -39,6 +50,7 @@ const Services = () => {
                         heading={'Computer Parts Manufacturer'}
                         details={'Using: ReactJS, Firebase, Node JS, MongoDB, Express, etc'}
                         live={<a style={{ textDecoration: 'none' }} href='https://computerpartsmanufacturer.web.app/'>Live Project</a>}
+                        detailsButton={<button className='cardBtn' onClick={handleNavigateToManufacturer}>Detail</button>}
                     />
                 </motion.div>
                 {/* second card  */}
@@ -54,6 +66,7 @@ const Services = () => {
                         heading={'Toy Warehouse'}
                         details={'Using: React JS, React Router, React Bootstrap, Axios, Firebase, Node JS, Mongo DB, Express, etc.'}
                         live={<a style={{ textDecoration: 'none' }} href='https://toy-warehouse.web.app/'>Live Project</a>}
+                        detailsButton={<button className='cardBtn' onClick={handleNavigateToWarehouse}>Detail</button>}
                     />
                 </motion.div>
                 {/* third card  */}
@@ -69,6 +82,7 @@ const Services = () => {
                         heading={'Learn With Noor'}
                         details={'Using: React Bootstrap, React JS, React Router, React Toastify, Firebase, etc.'}
                         live={<a style={{ textDecoration: 'none' }} href='https://learn-arabic-with-noor.web.app/'>Live Project</a>}
+                        detailsButton={<button className='cardBtn' onClick={handleNavigateToLearn}>Detail</button>}
                     />
                 </motion.div>
             </div>

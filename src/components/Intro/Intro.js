@@ -22,14 +22,18 @@ const Intro = () => {
                 <div className="i-name">
                     <span>Hey! I Am</span>
                     <span>Noor Mohammad</span>
-                    <span>JavaScript developer with knowing some framework for the frontend and the backend</span>
+                    <span style={{ fontSize: '2rem' }}>JavaScript developer with knowing some framework for the frontend and the backend</span>
                 </div>
 
                 <a href={Resume} download className='button i-button'>Download Resume</a>
 
                 <div className="i-icons">
-                    <img src={Github} alt="" />
-                    <img src={Linkedin} alt="" />
+                    <a href="https://github.com/noormohammad20">
+                        <img src={Github} alt="" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/noor-mohammad20/">
+                        <img src={Linkedin} alt="" />
+                    </a>
                     <img src={Instagram} alt="" />
                 </div>
             </div>
