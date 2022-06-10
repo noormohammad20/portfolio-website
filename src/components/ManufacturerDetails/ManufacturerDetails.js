@@ -6,7 +6,7 @@ import manu3 from '../../img/manu3.png'
 const ManufacturerDetails = () => {
     return (
         <div className='manuCard'>
-            <h1 style={{ textAlign: 'center' }}>This is Computer Parts Manufacturer Website</h1>
+            <h1 style={{ textAlign: 'center' }}>Computer Parts Manufacturer</h1>
             <div className="cardImg">
                 <img style={{ width: '300px', border: '1px solid gray' }} src={manu1} alt="" />
                 <img style={{ width: '300px', border: '1px solid gray' }} src={manu2} alt="" />

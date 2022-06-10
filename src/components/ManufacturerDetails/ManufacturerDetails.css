@@ -37,3 +37,15 @@
     background-color: black;
     border-radius: 20px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .cardImg {
+        display: none;
+
+    }
+
+    .links {
+        display: none;
+    }
+}

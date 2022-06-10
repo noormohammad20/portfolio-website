@@ -5,7 +5,7 @@ import toy3 from '../../img/toy3.png'
 const Warehouse = () => {
     return (
         <div className='manuCard'>
-            <h1 style={{ textAlign: 'center' }}>This is Toy Warehouse  Website</h1>
+            <h1 style={{ textAlign: 'center' }}>Toy Warehouse</h1>
             <div className="cardImg">
                 <img style={{ width: '300px', border: '1px solid gray' }} src={toy1} alt="" />
                 <img style={{ width: '300px', border: '1px solid gray' }} src={toy2} alt="" />
