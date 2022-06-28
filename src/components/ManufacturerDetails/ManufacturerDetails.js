@@ -8,9 +8,9 @@ const ManufacturerDetails = () => {
         <div className='manuCard'>
             <h1 style={{ textAlign: 'center' }}>Computer Parts Manufacturer</h1>
             <div className="cardImg">
-                <img style={{ width: '300px', border: '1px solid gray' }} src={manu1} alt="" />
-                <img style={{ width: '300px', border: '1px solid gray' }} src={manu2} alt="" />
-                <img style={{ width: '300px', border: '1px solid gray' }} src={manu3} alt="" />
+                <img style={{ width: '250px', height: '150px', border: '1px solid gray' }} src={manu1} alt="" />
+                <img style={{ width: '250px', height: '150px', border: '1px solid gray' }} src={manu2} alt="" />
+                <img style={{ width: '250px', height: '150px', border: '1px solid gray' }} src={manu3} alt="" />
             </div>
             <p>
 

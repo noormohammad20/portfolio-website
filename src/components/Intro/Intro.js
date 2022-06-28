@@ -22,7 +22,7 @@ const Intro = () => {
                 <div className="i-name">
                     <span>Hey! I Am</span>
                     <span>Noor Mohammad</span>
-                    <span style={{ fontSize: '2rem' }}>JavaScript developer with knowing some framework for the frontend and the backend</span>
+                    <span style={{ fontSize: '2rem' }}>JavaScript developer with knowing some framework for the frontend and the backend.</span>
                 </div>
 
                 <a href={Resume} download className='button i-button'>Download Resume</a>
@@ -74,7 +74,7 @@ const Intro = () => {
                     style={{ top: '23rem', left: '0.5rem' }}>
                     <FloatingDiv
                         image={thumbup}
-                        text1="MERN STack"
+                        text1="MERN Stack"
                         text2="Developer"
                     />
                 </motion.div>

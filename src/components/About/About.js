@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <h1 style={{ textAlign: 'center', color: 'purple' }}>I Am Noor Mohammad</h1>
-            <img style={{ display: 'block', marginRight: 'auto', marginLeft: 'auto' }} src={myimg} alt="" />
+            <img style={{ display: 'block', marginRight: 'auto', marginLeft: 'auto', height: '300px' }} src={myimg} alt="" />
             <h2>My Skills</h2>
             <p>
                 <span style={{ fontWeight: 'bold' }}>Experts:</span> HTML5 , CSS3 , Java Script , ES6 , Bootstrap , Tailwind , React JS .

@@ -7,9 +7,9 @@ const Warehouse = () => {
         <div className='manuCard'>
             <h1 style={{ textAlign: 'center' }}>Toy Warehouse</h1>
             <div className="cardImg">
-                <img style={{ width: '300px', border: '1px solid gray' }} src={toy1} alt="" />
-                <img style={{ width: '300px', border: '1px solid gray' }} src={toy2} alt="" />
-                <img style={{ width: '300px', border: '1px solid gray' }} src={toy3} alt="" />
+                <img style={{ width: '250px', height: '150px', border: '1px solid gray' }} src={toy1} alt="" />
+                <img style={{ width: '250px', height: '150px', border: '1px solid gray' }} src={toy2} alt="" />
+                <img style={{ width: '250px', height: '150px', border: '1px solid gray' }} src={toy3} alt="" />
             </div>
             <p>
 
